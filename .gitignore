@@ -1,0 +1,3 @@
+*.exe
+*.pkl
+__pycache__/
