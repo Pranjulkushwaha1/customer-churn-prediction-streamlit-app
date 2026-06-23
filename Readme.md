@@ -1,17 +1,17 @@
-# Customer Curn Prediction
+# Customer Curn Prediction 1
 
-## Problem Statement
+## Problem Statement 2
 Telecom Company ke customer Churn Kr rhe hai.
 ML model banake hm predict krenge ki kaun kaun se customer Churn krenge.
 Taki Company usnhe ya reward de ske jissse churn km ho.
 
-## Dataset
+## Dataset 3
 - **Source:** IBM Telco Customer Churn Dataset
 - **Rows:** 7043 customers
 - **Columns:** 50 features
 - **Target:** Churn Label (Yes/No)
 
-## Tech Stack
+## Tech Stack 4
 - **Language:** Python
 - **Data Analysis:** Pandas, NumPy
 - **Visualization:** Matplotlib, Seaborn
@@ -21,8 +21,7 @@ Taki Company usnhe ya reward de ske jissse churn km ho.
 - **Containerization:** Docker
 - **Dataset:** Kaggle
 
-## Resul
-## Results
+## Results 5
 
 | Model | Accuracy | Churn Recall | F1 Score |
 |---|---|---|---|
@@ -35,23 +34,23 @@ Taki Company usnhe ya reward de ske jissse churn km ho.
 **Accuracy:** 94.96%
 **AUC Score:** 0.99 
 
-## How to Run
+## How to Run 6
 
 ### Streamlit App
 ```bash
 streamlit run app.py
 ```
 
-### FastAPI
+### FastAPI 7
 ```bash
 uvicorn api:app --reload
 ```
 
-### Docker
+### Docker 8
 ```bash
 docker build -t churn-prediction .
 docker run -p 8000:8000 churn-prediction
 ```
 
-### Live Demo
+### Live Demo 9
 🔗 [Streamlit App](https://customer-churn-prediction-app-app-ezgzctl7x8twnrxfjyqe4x.streamlit.app/)
